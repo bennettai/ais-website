@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import React from "react";
 const navigation = [
-  { name: "Projects", href: "/projects" },
+  { name: "Contact", href: "/contact" },
   { name: "Events", href: "/events" },
 ];
 
@@ -18,7 +18,7 @@ export default function Home() {
       <Link
         key={item.href}
         href={item.href}
-        className="text-lg duration-500 text-zinc-500 hover:text-zinc-300 md:mr-10"
+        className="text-lg duration-500 text-zinc-400 hover:text-zinc-300 md:mr-10"
       >
         {item.name}
       </Link>
@@ -47,10 +47,10 @@ export default function Home() {
         </h2>
         <div className="flex items-center justify-center gap-4 mt-4">
           <a href="https://www.linkedin.com/company/ais-bu/" target="_blank" rel="noopener noreferrer">
-            <img src="/linkedin.png" alt="LinkedIn" className="w-8 h-8 hover:invert active:invert transition-all duration-300 ease-in-out" />
+            <img src="/linkedin2.png" alt="LinkedIn" className="w-8 h-8 hover:invert active:invert transition-all duration-300 ease-in-out" />
           </a>
           <a href="https://discord.gg/MMJRVqkJ" target="_blank" rel="noopener noreferrer">
-            <img src="/discord.png" alt="Discord" className="w-8 h-8 hover:invert active:invert transition-all duration-300 ease-in-out" />
+            <img src="/discord.svg" alt="Discord" className="w-8 h-8 hover:invert active:invert transition-all duration-300 ease-in-out" />
           </a>
           <a href="https://github.com/bennettai" target="_blank" rel="noopener noreferrer">
             <img src="/github.png" alt="GitHub" className="w-8 h-8 hover:invert active:invert transition-all duration-300 ease-in-out" />
